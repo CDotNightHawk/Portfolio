@@ -23,7 +23,7 @@ a:hover {
 
 /* Section Styles */
 
-.main-nav {
+.page-links {
   width: 100%;
   background: black;
   min-height: 30px;
@@ -134,6 +134,24 @@ header .profile-image:hover {
 }
 
 .ex {
+  text-align: center;
+}
+
+.know {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: center;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+}
+.know:hover {
+  border-color: #1be225;
+}
+
+.know {
   text-align: center;
 }
 
